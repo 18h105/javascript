@@ -9,12 +9,12 @@
 
             // variable
 
-            console.log(1+"2"+"2");
-            console.log(1+ +"2"+"2");
-            console.log(1+ -"1"+"2");
-            console.log(+"1"+"1"+"2");
-            console.log("A"-"B" + "2");
-            console.log("A"-"B"+2);
+            console.log(1+"2"+"2"); Anything inside "" is considered a string
+            console.log(1+ +"2"+"2"); Because 2 with + before it is casted as int
+            console.log(1+ -"1"+"2"); As before 1 with -before it is casted as int
+            console.log(+"1"+"1"+"2"); All values are considered as strings
+            console.log("A"-"B" + "2"); Any operator except + on strings return NaN and string "2" is concatenated with NaN
+            console.log("A"-"B"+2); Any operator except + on strings return NaN and you cannot do addition on it
 
             // Question 2
 
