@@ -20,7 +20,7 @@
          <input type="text"> <br>
          <label for=""> Enter 2nd No.</label> <br>
          <input type="text"> <br>
-         <button onclick="add()">Add</button><br>
+         <button onclick="add()"> Add </button><br>
          <label for=""> Result </label> <br>
          <input type="text">
          
@@ -28,7 +28,7 @@
              function add() {
                  const v1=document.getElementsByTagName("input")[0].value;
                  const v2=document.getElementsByTagName("input")[1].value;
-                 const v3=v1+v2;
+                 const v3=+v1+ +v2;
                  document.getElementsByTagName("input")[2].value=v3;            
                  }
          </script>
